@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA TRIVIA Made With JavaScript</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="quiz-box">
+            <header>
+                <h1 class="title">NBA TRIVIA</h1>
+                <img src="Images/nba.webp" alt="nba">
+
+
+            </header>
+            <section class="quiz-info">
+                <div class="quiz-question">
+                </div>
+                <div class="quiz-choices">
+                </div>
+                <div class="quiz-score">
+                    <h2>Your score is <span id="score"></span> out of 4</h2>
+                    <p class="message">Great job!</p>
+                </div>
+            </section>
+            <footer>
+                <div class="quiz-footer">
+                    <button class="next-btn">Next Question</button>
+                    <p><span class="quiz-counter">Question <span id="counter"></span> out of 4</span>
+                    </p>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+    <script src="questions.js"></script>
+    <script src="quiz.js"></script>
+
+</body>
+
+</html>
